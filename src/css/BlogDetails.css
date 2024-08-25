@@ -1,0 +1,23 @@
+/* src/css/BlogDetails.css */
+
+.blog-details-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.blog-details-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.blog-details-container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.blog-details-container p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}

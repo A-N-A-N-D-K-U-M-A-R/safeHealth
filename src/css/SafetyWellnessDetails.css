@@ -1,0 +1,46 @@
+/* src/css/SafetyWellnessDetails.css */
+
+.safetywellness-details-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.safetywellness-details-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.safetywellness-details-container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.safetywellness-details-container p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+/* src/css/SafetyWellnessDetails.css */
+
+.safetywellness-details-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.safetywellness-details-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.safetywellness-details-container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.safetywellness-details-container p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}

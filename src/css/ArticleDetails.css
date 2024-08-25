@@ -1,0 +1,23 @@
+/* src/css/ArticleDetails.css */
+
+.article-details-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.article-details-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.article-details-container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.article-details-container p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}

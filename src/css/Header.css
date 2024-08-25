@@ -1,0 +1,121 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header styling */
+  .header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  }
+  .header-container a{
+    text-decoration: none;
+  }
+
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Logo and company name */
+  .header-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-img {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .company-name {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+  }
+  
+  /* Navigation links */
+  .header-nav {
+    display: flex;
+  }
+
+  .header-nav a:hover{
+    color: #fff;
+    text-decoration: underline;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin: 0 15px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+  }
+  
+  .nav-links a:hover {
+    color: #ddd;
+  }
+  
+  /* Mobile Toggle Button */
+  .navbar-toggle {
+    display: none;
+    font-size: 2em;
+    cursor: pointer;
+    color: white;
+  }
+  
+  /* Responsive styling for small screens */
+  @media (max-width: 768px) {
+    .header-container {
+      flex-wrap: wrap;
+    }
+  
+    .navbar-toggle {
+      display: block;
+    }
+  
+    /* Initially hide the navigation links */
+    .header-nav {
+      display: none;
+      width: 100%;
+    }
+  
+    .header-nav.active {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      background-color: #333;
+      padding: 10px 0;
+    }
+  
+    .nav-links {
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .nav-links li {
+      margin: 10px 0;
+    }
+  }
+  
